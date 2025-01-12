@@ -274,3 +274,42 @@ hr{
     margin: 0 auto;
   }
 }
+
+.menu {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 20px;
+}
+
+.menu_item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.menu_item a:hover {
+  color: #007bff;
+}
+
+.portfolio_section {
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio_projects {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
